@@ -7,6 +7,14 @@ firebase.initializeApp(firebaseConfig);
 
 let database = firebase.database();
 
+function currentTime() {
+    var currentTimeFormat = "hh:mm:ss A";
+    var currentTime = moment(moment(), currentTimeFormat);
+    var currentTimeFormatted = currentTime.format(currentTimeFormat);
+    $('#current-time').addClass("").html('Current Time: ' + currentTimeFormatted)
+};
+setInterval(currentTime, 1000);
+
 $("#add-train").on("click", function (event) {
     event.preventDefault();
 
@@ -21,7 +29,7 @@ $("#add-train").on("click", function (event) {
         arrival: firstTrainTime,
         frequency: frequency,
     });
-    
+
 }); //submit button
 
 
@@ -42,7 +50,7 @@ database.ref().on("child_added", function (snapshot) {
     let minAway = frequency - remaind;
     console.log(minAway);
 
-    let nextTrain = moment().add(minAway, "minutes").format("hh:mm A"); 
+    let nextTrain = moment().add(minAway, "minutes").format("hh:mm A");
     console.log(nextTrain);
 
     let trainAdded = $("<tr>").append(
@@ -55,19 +63,10 @@ database.ref().on("child_added", function (snapshot) {
     );
 
     $("#train-info").append(trainAdded);
-
-    
-    // let normalTime = moment(nextArrival, "HH:mm").format("hh:mm a");
-    //     console.log(normalTime);
-    // let minAway = moment().diff(normalTime, "minutes");
-    // console.log(minAway);
-    // let normalArrivalTime = moment(nextArrival, "HH:mm A").format("HH:mm A");
-    // //     console.log(normalArrivalTime);
-    // let distanceAway = moment().diff(moment(nextArrival, "HH:mm"), "minutes");
-    // console.log(distanceAway);
 });
 
-// console.log(moment().format("HH:mm"));
-
+$("#clear-train").on("click", function (){
+    $("tbody").empty();
+})
 
 

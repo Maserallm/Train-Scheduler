@@ -1,7 +1,7 @@
 #jumbo-bkg {
     background-image: url(../images/michal-parzuchowski-dmH3NWhYTHQ-unsplash.jpg);
-    height: 50%;
-    width: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
     color: whitesmoke;
 
 }
