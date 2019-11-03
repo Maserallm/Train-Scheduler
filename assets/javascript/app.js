@@ -30,6 +30,9 @@ $("#add-train").on("click", function (event) {
         frequency: frequency,
     });
 
+    for (var i = 0; i < $('form').length; i++) {
+        $('form')[i].reset();}
+
 }); //submit button
 
 
