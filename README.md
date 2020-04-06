@@ -49,7 +49,7 @@ You must have the following installed to run Train Scheduler:
 
 ### Developer
 
-Smash That Clicky creator/designer:
+Train Scheduler creator/designer:
 
 [<img src="https://avatars0.githubusercontent.com/u/53875404?s=460&u=31a5f360d71e4f0a1fa4dfd8db38ed44f27fa10b&v=4" height="70px" width="70px">](https://github.com/maserallm)<br>
 [Maserall Marcelin](https://github.com/maserallm) is an Inventory Analyst at Publix Supermarkets, Inc. turned software developer. He can be found on [LinkedIn](https://www.linkedin.com/in/maserall-marcelin-76067a12b/) and [Github](https://github.com/maserallm).
