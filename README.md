@@ -46,6 +46,23 @@ Refreshing the page will reset the input spaces, and the previous train lines in
 You must have the following installed to run Train Scheduler:
 
 - [Firebase](https://firebase.google.com/)
+- [Twitter Bootstrap](https://getbootstrap.com/)
+
+#### Run on your local computer
+
+Clone or fork repository:
+
+    $ git clone git@github.com:Maserallm/Train Scheduler.git
+
+CD into Train-Scheduler folder
+
+```
+$ cd Train-Scheduler
+```
+
+Open folder in code editor and open the index.html file in the browser.
+
+---
 
 ### Developer
 
