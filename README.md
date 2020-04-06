@@ -29,9 +29,9 @@ Access the live webapp: [Train Scheduler](https://maserallm.github.io/Train-Sche
 
 | Frontend     |
 | ------------ |
-| React        |
-| React DOM    |
 | Javascript 6 |
+| Firebase     |
+| jQuery       |
 | HTML5        |
 | CSS3         |
 | Node         |
