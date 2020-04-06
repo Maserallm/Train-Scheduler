@@ -21,9 +21,9 @@ Access the live webapp: [Train Scheduler](https://maserallm.github.io/Train-Sche
 
 ### Overview
 
-- On the load of the page, users can input their desired train destinations by typing in the Add Destination table the parameters required. After placing their input, pressing the submit button will add their destination information onto the 'Current Train Schedule' table.
+On the load of the page, users can input their desired train destinations by typing in the Add Destination table the parameters required. After placing their input, pressing the submit button will add their destination information onto the 'Current Train Schedule' table.
 
-- Refreshing the page will reset the input spaces, and the previous train lines inserted into the schedule will remain their.
+Refreshing the page will reset the input spaces, and the previous train lines inserted into the schedule will remain their.
 
 ### Technologies
 
@@ -38,6 +38,14 @@ Access the live webapp: [Train Scheduler](https://maserallm.github.io/Train-Sche
 | Moment            |
 
 ---
+
+### Installation
+
+#### Prerequisites
+
+You must have the following installed to run Train Scheduler:
+
+- [Firebase](https://firebase.google.com/)
 
 ### Contribution
 
