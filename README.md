@@ -27,14 +27,15 @@ Access the live webapp: [Train Scheduler](https://maserallm.github.io/Train-Sche
 
 ### Technologies
 
-| Frontend     |
-| ------------ |
-| Javascript 6 |
-| Firebase     |
-| jQuery       |
-| HTML5        |
-| CSS3         |
-| Node         |
+| Frontend          |
+| ----------------- |
+| Javascript 6      |
+| Firebase          |
+| jQuery            |
+| HTML5             |
+| CSS3              |
+| Twitter Bootstrap |
+| Moment            |
 
 ---
 
