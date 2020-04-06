@@ -25,6 +25,19 @@ Access the live webapp: [Train Scheduler](https://maserallm.github.io/Train-Sche
 
 - Refreshing the page will reset the input spaces, and the previous train lines inserted into the schedule will remain their.
 
+### Technologies
+
+| Frontend     |
+| ------------ |
+| React        |
+| React DOM    |
+| Javascript 6 |
+| HTML5        |
+| CSS3         |
+| Node         |
+
+---
+
 ### Contribution
 
 - I am the sole contributor to this project.
