@@ -52,7 +52,7 @@ You must have the following installed to run Train Scheduler:
 
 Clone or fork repository:
 
-    $ git clone git@github.com:Maserallm/Train Scheduler.git
+    $ git clone git@github.com:Maserallm/Train-Scheduler.git
 
 CD into Train-Scheduler folder
 
